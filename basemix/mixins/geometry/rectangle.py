@@ -13,7 +13,6 @@ class DimensionBase(models.Model):
 
     Two model mixins :class:`.DimensionIntBase` and
     :class:`.DimensionFloatBase` already exist for our basic needs.
-
     """
 
     # Meta

@@ -1,9 +1,13 @@
 from distutils.core import setup
 
+from setuptools import find_packages
+
+
 setup(
     name='django-basemix',
     version='0.1',
-    packages=['basemix', 'basemix.mixins', 'basemix.mixins.geometry'],
+    packages=find_packages(),
+    include_package_data=True,
     requires=['django', 'pendulum'],
     url='https://github.com/artscoop/django-basemix',
     license='BSD 3-clause',

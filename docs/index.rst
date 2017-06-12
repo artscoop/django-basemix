@@ -6,6 +6,9 @@
 Welcome to Django Basemix's documentation!
 ==========================================
 
+Django Basemix is a library of useful utilities and mixins you do not
+find in Django by default, and might otherwise be scattered in other libraries.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
