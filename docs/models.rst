@@ -16,9 +16,14 @@ Date and time
 .. automodule:: basemix.mixins.datetime.update
    :members:
 
+Priority and weight
+-------------------
 
 .. automodule:: basemix.mixins.priority.priority
    :members:
+
+Content
+-------
 
 .. automodule:: basemix.mixins.content.content
    :members:

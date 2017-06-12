@@ -7,8 +7,14 @@ class ContentBase(models.Model):
     """
     Base class for models that share content attributes
 
-    The content attributes we're interested in here are title,
-    content and description.
+    The attributes added by this mixin are ``title``, ``description``,
+    ``content`` and ``is_visible``.
+
+    Attributes:
+        :is_visible: whether the content should be displayed by normal users
+        :title: title of the content, at most 192 characters
+        :description: most content objects have a description, with an unlimited size
+        :content: actual content of the object, with an unlimited size
     """
 
     # Fields

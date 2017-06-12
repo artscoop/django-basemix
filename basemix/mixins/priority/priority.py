@@ -8,11 +8,16 @@ class PriorityBase(models.Model):
     """
     Base class for models that can be ordered by priority
 
+    The mixin adds a new field named ``priority``, which is an
+    integer between `0` and `100` (enforced by field type and a
+    validator)
+
     Contrary to the UNIX nonsense where a high nice priority is -20
     and a low nice priority is 19, we use the intuitive notion of
     priority here: a high number is akin to a high priority.
 
-    The limits here are 0..100.
+    Attributes:
+        :priority: priority of the object as an integer, ``0..100``
     """
 
     # Fields

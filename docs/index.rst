@@ -14,6 +14,7 @@ find in Django by default, and might otherwise be scattered in other libraries.
    :caption: Contents:
 
    models
+   utility
 
 
 

@@ -80,6 +80,10 @@ class DimensionIntBase(DimensionBase):
 
     The model allows for representation of integer dimensions and
     contains two ``PositiveIntegerField`` named ``width`` and ``height``.
+
+    Attributes:
+        :width: integer width
+        :height: integer height
     """
 
     # Fields
@@ -97,6 +101,10 @@ class DimensionFloatBase(DimensionBase):
 
     The model allows for representation of floating point dimensions and
     contains two ``FloatField`` named ``width`` and ``height``.
+
+    Attributes:
+        :width: float width
+        :height: float height
     """
 
     # Fields

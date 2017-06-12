@@ -29,7 +29,7 @@ class UpdateBase(models.Model):
         Returns whether this instance was updated recently
 
         :param hours: Minimum hours to consider the instance not fresh anymore.
-        Default value is one week (`168`).
+            Default value is one week (`168`).
         :return: ``True`` if the instance update time is recent enough
         :rtype: bool
         """

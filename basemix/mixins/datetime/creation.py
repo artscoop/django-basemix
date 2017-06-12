@@ -14,6 +14,9 @@ class CreationBase(models.Model):
     of the creation date. By default, the field is not setup to
     have an index defined on it. However, in Django 1.11, you can
     define an index on the field ``creation_date``
+
+    Attributes:
+        :creation_date: date of creation of the object
     """
 
     # Fields
@@ -29,9 +32,10 @@ class CreationBase(models.Model):
         Returns whether this instance was created recently
 
         :param hours: Minimum hours to consider the instance not new anymore.
-        Default value is one week (`168`).
+            Default value is one week (`168`).
         :return: ``True`` if the instance is recent enough
         :rtype: bool
+
         """
         oldest_date = now() - timedelta(hours=hours)
         return self.creation_date > oldest_date
