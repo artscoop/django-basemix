@@ -4,11 +4,21 @@ Model mixins
 Geometry
 --------
 
-.. automodule:: basemix.mixins.geometry
-   :members: DimensionBase, DimensionIntBase, DimensionFloatBase
+.. automodule:: basemix.mixins.geometry.rectangle
+   :members:
 
 Date and time
 -------------
 
-.. automodule:: basemix.mixins.datetime
-   :members: CreationBase, UpdateBase
+.. automodule:: basemix.mixins.datetime.creation
+   :members:
+
+.. automodule:: basemix.mixins.datetime.update
+   :members:
+
+
+.. automodule:: basemix.mixins.priority.priority
+   :members:
+
+.. automodule:: basemix.mixins.content.content
+   :members:
