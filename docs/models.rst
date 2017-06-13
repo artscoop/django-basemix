@@ -27,3 +27,9 @@ Content
 
 .. automodule:: basemix.mixins.content.content
    :members:
+
+Switches
+--------
+
+.. automodule:: basemix.mixins.content.switches
+   :members:
